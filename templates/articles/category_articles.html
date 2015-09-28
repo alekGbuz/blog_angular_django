@@ -1,0 +1,11 @@
+<div style="min-height:500px;">
+    <div ng-repeat="article in filter_articles">
+       <div  style="text-align:center;" ><h2> <a href="/detail_article/{$ article.slug $}">{$ article.title $}</a></h2></div>
+       <div  ng-bind-html="article.description|sanitize"></div>
+
+     </div>
+
+</div>
+<div  style="text-align:center;" ng-show="totalItems>5">
+    <pagination boundary-links="true"  items-per-page="5" total-items="totalItems" ng-model="currentPage"  ng-change="pageChanged()" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></pagination>
+</div>

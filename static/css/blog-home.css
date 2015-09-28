@@ -1,0 +1,52 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+.active_category {
+    background:#F0AD4E ;
+    padding:1px;
+    border-color: #EEA236;
+    text-decoration:none !important;
+}
+
+body{
+    background-color:#F2F2F2 !important;
+}
+.navbar-inverse  {
+    border-color: #4B4B4B !important;
+    background: #4B4B4B !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #E1D2D2 !important;
+}
+
+.glyphicon-circle-arrow-left {
+    font-size: 25px;
+    cursor: pointer;
+    color:red;
+}
+
+.glyphicon-circle-arrow-right {
+    font-size: 25px;
+    cursor: pointer;
+    color:red;
+}
+
+.glyphicon-pencil{
+ display:block;
+ float:left;
+ color:grey;
+ font-size:15px;
+}
